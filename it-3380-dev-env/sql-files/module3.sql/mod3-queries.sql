@@ -18,8 +18,7 @@ SELECT c.CUST_NAME, o.ORD_NUM, o.ORD_AMOUNT
 FROM customer c, orders o
 WHERE c.CUST_CODE = o.CUST_CODE AND c.CUST_CITY = "New York";
 
---5 Display agent name, customer name, order number, and order amount for order of more 
---than $1500
+--5 Display agent name, customer name, order number, and order amount for order of more than $1500
 SELECT a.AGENT_NAME, c.CUST_NAME, o.ORD_NUM, o.ORD_AMOUNT
 FROM agents a, customer c, orders o
 WHERE a.AGENT_CODE = c.AGENT_CODE AND c.CUST_CODE = o.CUST_CODE AND o.ORD_AMOUNT > 1500;
