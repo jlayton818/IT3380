@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/5424716/how-can-i-check-if-string-input-is-a-number
+https://pythonprinciples.com/blog/python-convert-string-to-int/

@@ -1,0 +1,13 @@
+source 01_mysql_create.sql;
+source 02_mysql_populate_author.sql;
+source 03_mysql_populate_publisher.sql;
+source 04_mysql_populate_lookups.sql;
+source 05_mysql_populate_book.sql;
+source 06_mysql_populate_bookauthor.sql;
+source 07_mysql_populate_country.sql;
+source 08_mysql_populate_address.sql;
+source 09_mysql_populate_customer.sql;
+source 10_mysql_populate_others.sql;
+source 11_mysql_populate_order.sql;
+source 12_mysql_populate_orderline.sql;
+source 13_mysql_populate_orderhistory.sql;

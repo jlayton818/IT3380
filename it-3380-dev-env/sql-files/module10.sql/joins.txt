@@ -1,0 +1,23 @@
+For query 2A1 the normal join returns 100 rows since it only grabs everything if there is no nulls
+The left join returns 108 rows, and the customer table has nulls since we left joined it and since
+the employee table is our main table all the employee data gets taken even if there is no customer.
+The right join table gives out 122 rows and is due to the fact that every customer has a spot on the table.
+but not necessarily a sales rep.
+
+For query 2A2 all 3 joins work the same since all employees have an office and all offices have at least
+1 employee
+
+For query 2A3 the normal join returns 2996 Results and returns everything that is in both tables so there
+are no nulls. The LEFT join returns 3020 Results, and it returns null values for everything other than the customer.
+table. This is because customers are allowed to be in the table without placing an order and if they have no order.
+there is no product name or order details. The RIGHT join gives us a strange NULL with 2997 Results. The only value 
+in the row that isn't NULL is the 1985 Toyota Supra which means it exists only in the product table and has never been 
+ordered once.
+
+For query 2A4 the normal join returns no NULLS and returns 273 Results. The LEFT join returns 297 Results and has nulls in
+the payment data. There are customers that have not made a payment yet, and we are left joining on the customers table all.
+customers will show up. The RIGHT JOIN tells us that only customers that have made a payment are going to be on this selection. 
+so, we get the same 273 Results as the normal join.
+
+For query 2A5 all 3 joins returned the exact same number of results at 110 Results. This is due to the fact that a product line.
+is needed to be referenced, there is no NULL for textDescription, and there is no NULL for productName.
